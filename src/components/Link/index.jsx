@@ -1,7 +1,7 @@
 import { bem } from "../../utils/bem";
 import "./style.css";
 
-const { bl, el } = bem("link");
+const { bl } = bem("link");
 
 export function Link({ className, href, children }) {
   return (

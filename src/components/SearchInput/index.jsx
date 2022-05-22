@@ -20,7 +20,7 @@ export function SearchInput({ className, onSearch }) {
 
       onSearch(value);
     },
-    [value]
+    [value, onSearch]
   );
 
   return (

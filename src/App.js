@@ -4,10 +4,8 @@ import { Profile } from "../src/components/Profile";
 import {
   EmptySearch,
   UserNotFound,
-  NoRepository,
 } from "./components/InfoScreen/screens";
 import { bem } from "./utils/bem";
-import avatarIcon from "./components/Profile/images/avatar.png";
 import { useCallback, useState } from "react";
 import { GithubApi } from "./github/api";
 import { Repositories } from "./components/Repositories";

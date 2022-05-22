@@ -24,10 +24,10 @@ export function Profile({
       </Link>
       <div className={el("counts-container")}>
         <div className={el("count")}>
-          <img src={followersIcon} /> {followersCount} followers
+          <img src={followersIcon} alt="" /> {followersCount} followers
         </div>
         <div className={el("count")}>
-          <img src={followingIcon} /> {followingCount} following
+          <img src={followingIcon} alt="" /> {followingCount} following
         </div>
       </div>
     </div>
