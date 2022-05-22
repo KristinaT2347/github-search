@@ -1,0 +1,19 @@
+.header {
+  height: 72px;
+  background-color: #0064eb;
+  display: flex;
+  gap: 22px;
+  align-items: center;
+}
+
+.header__logo {
+  height: 40px;
+  width: 40px;
+  margin-left: 41px;
+}
+
+.header__search {
+  min-width: 200px;
+  max-width: 500px;
+  padding-right: 22px;
+}

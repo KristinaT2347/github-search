@@ -1,0 +1,22 @@
+.info-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.info-screen__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 110px;
+}
+
+.info-screen__text {
+  color: #808080;
+  font-size: 22px;
+  line-height: 140%;
+  text-align: center;
+}

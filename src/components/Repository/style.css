@@ -1,0 +1,35 @@
+.repository {
+  height: 112px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 32px;
+  width: 100%;
+}
+
+.repository:hover .repository__name {
+  text-decoration: underline;
+}
+
+.repository__name {
+  display: block;
+  margin-bottom: 16px;
+  color: #0064eb;
+  width: 100%;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.repository__description {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}

@@ -1,0 +1,21 @@
+.repositories {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.repositories__title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 130%;
+  margin-bottom: 29px;
+}
+
+.repositories__repository:not(:first-child) {
+  margin-top: 24px;
+}
+
+.repositories__pager {
+  margin-top: 24px;
+  align-self: flex-end;
+}
